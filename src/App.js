@@ -38,7 +38,7 @@ class App extends PureComponent {
           </div>
         </Content>
         <Footer style={{ textAlign: 'center' }}>
-         Abdelali Jadelmoula React CI/CD
+         This is Test-Version1
         </Footer>
       </Layout>
     )

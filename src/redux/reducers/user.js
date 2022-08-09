@@ -6,7 +6,7 @@ const initialState = Immutable.fromJS({
   loading: false
 });
 
-const auth = (state = initialState, action)=> {
+export default function (state = initialState, action) {
   switch (action.type) {
     case types.SET_USER: {
       return state.set('user', action.data);
@@ -18,5 +18,3 @@ const auth = (state = initialState, action)=> {
       return state;
   }
 }
-
-export default auth ;

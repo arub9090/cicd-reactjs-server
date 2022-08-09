@@ -6,5 +6,3 @@ export default createStore(
   rootReducer,
   applyMiddleware(thunk)
 );
-
-// docker-compose-jenkins-ansible-mongo-nodejs-react-server

@@ -19,14 +19,15 @@ class App extends PureComponent {
 
   render () {
     const loading = this.props.user.get('loading')
+
     if (loading) {
       return (
         <div className={'loading-container'}>
           <Spin size="large"/>
-          <h1>this is loading</h1>
         </div>
       )
     }
+
     return (
       <Layout className="layout">
         <PageHeader/>
@@ -38,7 +39,7 @@ class App extends PureComponent {
           </div>
         </Content>
         <Footer style={{ textAlign: 'center' }}>
-         This is Test-Version1
+        React CICD by ARIF RUBAYET
         </Footer>
       </Layout>
     )

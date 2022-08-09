@@ -40,6 +40,7 @@ class App extends PureComponent {
         </Content>
         <Footer style={{ textAlign: 'center' }}>
         Alhumdulillah FULL CICD DONE- Arif Rubayet
+        I am feeling good!!
         </Footer>
       </Layout>
     )

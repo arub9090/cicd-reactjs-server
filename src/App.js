@@ -39,7 +39,7 @@ class App extends PureComponent {
           </div>
         </Content>
         <Footer style={{ textAlign: 'center' }}>
-        React CICD by ARIF RUBAYET
+        Alhumdulillah
         </Footer>
       </Layout>
     )
